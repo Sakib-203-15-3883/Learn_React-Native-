@@ -1,6 +1,6 @@
 import { Button, Text, View } from "react-native";
 import { useCounter } from "./counterContext";
-import { Fragment } from "react";
+
 
 const DisplayContextData = () => {
     const { count, increment, decrement } = useCounter();
